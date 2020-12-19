@@ -1,0 +1,18 @@
+Changelog:
+
+Release 20110608
+- first release Andreas Paul
+
+Release 20110825
+- makefile changes
+- Joystickport 1 und 2 gegeneinander getauscht
+- files for ATtiny2313 and ATtiny4313 supplied
+
+Release 20150131
+- release Philipp Lang
+- complete code rewrite
+- both joysticks can be used under Linux
+- the port mapping can be selected by holding the left joystick while plugging-in the adapter:
+  button1 + left: left joystick will be reported as joystick #1
+  button1 + right: right joystick will be reported as joystick #1
+  the mapping is stored in the eeprom
